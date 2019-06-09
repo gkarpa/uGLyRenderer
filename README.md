@@ -3,15 +3,16 @@ uGLyRenderer is a 3d model renderer for viewing various 3d models on your screen
 
 It features an orbit camera that you can manipulate with your mouse, along with a custom FoV. The application also setups a fixed point light (represented with an icosahedron) that shades the scene using Blinn-Phong lighting shaders.
 
-To run it, ... (note: You will need a gpu with drivers that support OpenGL 4.6, currently). Usage:
-.To load a model, drag'n'drop an Assimp compatible model file (e.g. an .obj file) into the application window.
-.To rotate the orbit camera, move the mouse while holding its left button.
-.To adjust the camera vertical Field of View, you can use the mouse scroll wheel.
-.key Escape : Terminate the application.
-.keys S, W : To move the camera back and forth, respectively.
-.key R : Reset the camera and projection to their initial states.
-.key F : Toggle between solid and wireframe rendering.
-.key C : Toggle backface culling.
+##Usage:
+-To run it, ... (note: You will need a gpu with drivers that support OpenGL 4.6, currently).
+-To load a model, drag'n'drop an Assimp compatible model file (e.g. an .obj file) into the application window.
+-To rotate the orbit camera, move the mouse while holding its left button.
+-To adjust the camera vertical Field of View, you can use the mouse scroll wheel.
+-key Esc : Terminate the application.
+-keys S, W : To move the camera back and forth, respectively.
+-key R : Reset the camera and projection to their initial states.
+-key F : Toggle between solid and wireframe rendering.
+-key C : Toggle backface culling.
 
 You can see some screenshots from it in action below.
 
