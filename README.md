@@ -7,9 +7,9 @@ It features an orbit camera that you can manipulate with your mouse, along with 
 - To run it, ... (note: You will need a gpu with drivers that support OpenGL 4.6, currently).
 - To load a model, drag'n'drop an Assimp compatible model file (e.g. an .obj file) into the application window.
 - To rotate the orbit camera, move the mouse while holding its left button.
-- To adjust the camera vertical Field of View, you can use the mouse scroll wheel.
+- To adjust the camera's vertical Field of View, you can use the mouse scroll wheel.
 - key Esc : Terminate the application.
-- keys S, W : To move the camera back and forth, respectively.
+- keys S, W : To move the camera backwards and forward, respectively.
 - key R : Reset the camera and projection to their initial states.
 - key F : Toggle between solid and wireframe rendering.
 - key C : Toggle backface culling.
